@@ -1,0 +1,123 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Deck of cards\C_02.png" />
+    <None Remove="Deck of cards\C_03.png" />
+    <None Remove="Deck of cards\C_04.png" />
+    <None Remove="Deck of cards\C_05.png" />
+    <None Remove="Deck of cards\C_06.png" />
+    <None Remove="Deck of cards\C_07.png" />
+    <None Remove="Deck of cards\C_08.png" />
+    <None Remove="Deck of cards\C_09.png" />
+    <None Remove="Deck of cards\C_10.png" />
+    <None Remove="Deck of cards\C_As.png" />
+    <None Remove="Deck of cards\C_Jota.png" />
+    <None Remove="Deck of cards\C_Reina.png" />
+    <None Remove="Deck of cards\C_Rey.png" />
+    <None Remove="Deck of cards\D_02.png" />
+    <None Remove="Deck of cards\D_03.png" />
+    <None Remove="Deck of cards\D_04.png" />
+    <None Remove="Deck of cards\D_05.png" />
+    <None Remove="Deck of cards\D_06.png" />
+    <None Remove="Deck of cards\D_07.png" />
+    <None Remove="Deck of cards\D_08.png" />
+    <None Remove="Deck of cards\D_09.png" />
+    <None Remove="Deck of cards\D_10.png" />
+    <None Remove="Deck of cards\D_As.png" />
+    <None Remove="Deck of cards\D_Jota.png" />
+    <None Remove="Deck of cards\D_Reina.png" />
+    <None Remove="Deck of cards\D_Rey.png" />
+    <None Remove="Deck of cards\Portada.png" />
+    <None Remove="Deck of cards\P_02.png" />
+    <None Remove="Deck of cards\P_03.png" />
+    <None Remove="Deck of cards\P_04.png" />
+    <None Remove="Deck of cards\P_05.png" />
+    <None Remove="Deck of cards\P_06.png" />
+    <None Remove="Deck of cards\P_07.png" />
+    <None Remove="Deck of cards\P_08.png" />
+    <None Remove="Deck of cards\P_09.png" />
+    <None Remove="Deck of cards\P_10.png" />
+    <None Remove="Deck of cards\P_As.png" />
+    <None Remove="Deck of cards\P_Jota.png" />
+    <None Remove="Deck of cards\P_Reina.png" />
+    <None Remove="Deck of cards\P_Rey.png" />
+    <None Remove="Deck of cards\T_02.png" />
+    <None Remove="Deck of cards\T_03.png" />
+    <None Remove="Deck of cards\T_04.png" />
+    <None Remove="Deck of cards\T_05.png" />
+    <None Remove="Deck of cards\T_06.png" />
+    <None Remove="Deck of cards\T_07.png" />
+    <None Remove="Deck of cards\T_08.png" />
+    <None Remove="Deck of cards\T_09.png" />
+    <None Remove="Deck of cards\T_10.png" />
+    <None Remove="Deck of cards\T_As.png" />
+    <None Remove="Deck of cards\T_Jota.png" />
+    <None Remove="Deck of cards\T_Reina.png" />
+    <None Remove="Deck of cards\T_Rey.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Deck of cards\C_02.png" />
+    <Resource Include="Deck of cards\C_03.png" />
+    <Resource Include="Deck of cards\C_04.png" />
+    <Resource Include="Deck of cards\C_05.png" />
+    <Resource Include="Deck of cards\C_06.png" />
+    <Resource Include="Deck of cards\C_07.png" />
+    <Resource Include="Deck of cards\C_08.png" />
+    <Resource Include="Deck of cards\C_09.png" />
+    <Resource Include="Deck of cards\C_10.png" />
+    <Resource Include="Deck of cards\C_As.png" />
+    <Resource Include="Deck of cards\C_Jota.png" />
+    <Resource Include="Deck of cards\C_Reina.png" />
+    <Resource Include="Deck of cards\C_Rey.png" />
+    <Resource Include="Deck of cards\D_02.png" />
+    <Resource Include="Deck of cards\D_03.png" />
+    <Resource Include="Deck of cards\D_04.png" />
+    <Resource Include="Deck of cards\D_05.png" />
+    <Resource Include="Deck of cards\D_06.png" />
+    <Resource Include="Deck of cards\D_07.png" />
+    <Resource Include="Deck of cards\D_08.png" />
+    <Resource Include="Deck of cards\D_09.png" />
+    <Resource Include="Deck of cards\D_10.png" />
+    <Resource Include="Deck of cards\D_As.png" />
+    <Resource Include="Deck of cards\D_Jota.png" />
+    <Resource Include="Deck of cards\D_Reina.png" />
+    <Resource Include="Deck of cards\D_Rey.png" />
+    <Resource Include="Deck of cards\Portada.png" />
+    <Resource Include="Deck of cards\P_02.png" />
+    <Resource Include="Deck of cards\P_03.png" />
+    <Resource Include="Deck of cards\P_04.png" />
+    <Resource Include="Deck of cards\P_05.png" />
+    <Resource Include="Deck of cards\P_06.png" />
+    <Resource Include="Deck of cards\P_07.png" />
+    <Resource Include="Deck of cards\P_08.png" />
+    <Resource Include="Deck of cards\P_09.png" />
+    <Resource Include="Deck of cards\P_10.png" />
+    <Resource Include="Deck of cards\P_As.png" />
+    <Resource Include="Deck of cards\P_Jota.png" />
+    <Resource Include="Deck of cards\P_Reina.png" />
+    <Resource Include="Deck of cards\P_Rey.png" />
+    <Resource Include="Deck of cards\T_02.png" />
+    <Resource Include="Deck of cards\T_03.png" />
+    <Resource Include="Deck of cards\T_04.png" />
+    <Resource Include="Deck of cards\T_05.png" />
+    <Resource Include="Deck of cards\T_06.png" />
+    <Resource Include="Deck of cards\T_07.png" />
+    <Resource Include="Deck of cards\T_08.png" />
+    <Resource Include="Deck of cards\T_09.png" />
+    <Resource Include="Deck of cards\T_10.png" />
+    <Resource Include="Deck of cards\T_As.png" />
+    <Resource Include="Deck of cards\T_Jota.png" />
+    <Resource Include="Deck of cards\T_Reina.png" />
+    <Resource Include="Deck of cards\T_Rey.png" />
+  </ItemGroup>
+
+</Project>
